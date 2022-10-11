@@ -1,8 +1,10 @@
 import Routing from '../configs/routing'
 import general from './general'
+import logged from './logged'
 
 const combineRoutes = [
-    ...general
+    ...general,
+    ...logged
 ]
 
 const Routes = () => {

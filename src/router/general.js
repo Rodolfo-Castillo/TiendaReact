@@ -1,9 +1,9 @@
-import Index from "../pages";
+import Login from "../pages/login";
 
 export default [
     {
-        path:"/",
-        component:Index,
+        path:"/login",
+        component:Login,
         auth:false   
     }
 ]
